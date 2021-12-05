@@ -1,0 +1,27 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  background-color: #064635;
+}
+
+.navbar {
+  background-color: blue;
+}
+
+.carousel .carousel-item {
+  height: 500px;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  min-height: 500px;
+}
+
+.jumbotron {
+  background-color: green;
+}
+
+.display-4 {
+  color: white;
+}
