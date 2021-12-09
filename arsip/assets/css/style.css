@@ -6,27 +6,9 @@ body {background-color: rgb(102, 102, 102);
     background-color: rgb(0, 0, 0);
   }
   
-  .carousel .carousel-item {
-    height: 500px;
-  }
-  
-  .carousel-item img {
-    object-fit: cover;
-    top: 0;
-    left: 0;
-    min-height: 500px;
-  }
   
   .shadow{
     background-color: rgba(255, 255, 255, 0.76);
-  }
-
-  .jumbotron {
-    background-color: green;
-  }
-  
-  .display-4 {
-    color: white;
   }
   
   .footer-dark {
@@ -35,21 +17,6 @@ body {background-color: rgb(102, 102, 102);
     background-color:#282d32;
   }
   
-  
-  .footer-dark .item.text {
-    margin-bottom:36px;
-  }
-  
-  @media (max-width:767px) {
-    .footer-dark .item.text {
-      margin-bottom:0;
-    }
-  }
-  
-  .footer-dark .item.text p {
-    opacity:0.6;
-    margin-bottom:0;
-  }
 
   
   .footer-dark .copyright {
@@ -72,16 +39,4 @@ body {background-color: rgb(102, 102, 102);
 }
 .social-container .col {
     border: 1px solid rgba(255, 255, 255, 0.1);
-}
-.nav-list li a:before {
-    content: "\f14f";
-    font: 400 21px/1 "Material Design Icons";
-    color: #4d6de6;
-    display: inline-block;
-    vertical-align: baseline;
-    margin-left: -28px;
-    margin-right: 7px;
-    opacity: 0;
-    visibility: hidden;
-    transition: .22s ease;
 }
